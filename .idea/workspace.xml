@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a50a9503-ebbf-446a-b12b-0daa4725e886" name="Default Changelist" comment="Add auto file download if it dont exist">
+    <list default="true" id="a50a9503-ebbf-446a-b12b-0daa4725e886" name="Default Changelist" comment="Improved prediction code that enables multiple predictions">
+      <change afterPath="$PROJECT_DIR$/SC1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Audio Processing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Audio Processing.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,8 @@
       <updated>1622106698409</updated>
       <workItem from="1622106699901" duration="6480000" />
       <workItem from="1622116259007" duration="11613000" />
+      <workItem from="1623211750056" duration="3316000" />
+      <workItem from="1623215418668" duration="21589000" />
     </task>
     <task id="LOCAL-00001" summary="Add auto file download if it dont exist">
       <created>1622128949759</created>
@@ -52,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622128949759</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Improved prediction code that enables multiple predictions">
+      <created>1622179173755</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622179173755</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add auto file download if it dont exist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add auto file download if it dont exist" />
+    <MESSAGE value="Improved prediction code that enables multiple predictions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved prediction code that enables multiple predictions" />
   </component>
 </project>
