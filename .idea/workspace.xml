@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a50a9503-ebbf-446a-b12b-0daa4725e886" name="Default Changelist" comment="Improved prediction code that enables multiple predictions">
-      <change afterPath="$PROJECT_DIR$/SC1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a50a9503-ebbf-446a-b12b-0daa4725e886" name="Default Changelist" comment="Added TIL questions and opmized audio model to around 80% on val">
+      <change afterPath="$PROJECT_DIR$/SC1 V2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,8 @@
       <workItem from="1622106699901" duration="6480000" />
       <workItem from="1622116259007" duration="11613000" />
       <workItem from="1623211750056" duration="3316000" />
-      <workItem from="1623215418668" duration="21589000" />
+      <workItem from="1623215418668" duration="22277000" />
+      <workItem from="1623292168333" duration="8006000" />
     </task>
     <task id="LOCAL-00001" summary="Add auto file download if it dont exist">
       <created>1622128949759</created>
@@ -62,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622179173755</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added TIL questions and opmized audio model to around 80% on val">
+      <created>1623242882154</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623242882154</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +90,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add auto file download if it dont exist" />
     <MESSAGE value="Improved prediction code that enables multiple predictions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved prediction code that enables multiple predictions" />
+    <MESSAGE value="Added TIL questions and opmized audio model to around 80% on val" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added TIL questions and opmized audio model to around 80% on val" />
   </component>
 </project>
