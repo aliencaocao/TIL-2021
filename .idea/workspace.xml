@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a50a9503-ebbf-446a-b12b-0daa4725e886" name="Default Changelist" comment="Added TIL questions and opmized audio model to around 80% on val">
-      <change afterPath="$PROJECT_DIR$/SC1 V2.ipynb" afterDir="false" />
+    <list default="true" id="a50a9503-ebbf-446a-b12b-0daa4725e886" name="Default Changelist" comment="Added VGGish feature extractor but not working well">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SC1 V2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SC1 V2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SC1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SC1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SC1.png" beforeDir="false" afterPath="$PROJECT_DIR$/SC1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SC1v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/SC1v2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best results/to submit 1/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best results/to submit 2/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +51,8 @@
       <workItem from="1622116259007" duration="11613000" />
       <workItem from="1623211750056" duration="3316000" />
       <workItem from="1623215418668" duration="22277000" />
-      <workItem from="1623292168333" duration="8006000" />
+      <workItem from="1623292168333" duration="24512000" />
+      <workItem from="1623327808385" duration="10843000" />
     </task>
     <task id="LOCAL-00001" summary="Add auto file download if it dont exist">
       <created>1622128949759</created>
@@ -69,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623242882154</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added VGGish feature extractor but not working well">
+      <created>1623300367891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623300367891</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +104,7 @@
     <MESSAGE value="Add auto file download if it dont exist" />
     <MESSAGE value="Improved prediction code that enables multiple predictions" />
     <MESSAGE value="Added TIL questions and opmized audio model to around 80% on val" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TIL questions and opmized audio model to around 80% on val" />
+    <MESSAGE value="Added VGGish feature extractor but not working well" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added VGGish feature extractor but not working well" />
   </component>
 </project>
