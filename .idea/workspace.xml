@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a50a9503-ebbf-446a-b12b-0daa4725e886" name="Default Changelist" comment="Optimized sc1 v2">
-      <change afterPath="$PROJECT_DIR$/s1_release_ori.zip" afterDir="false" />
+    <list default="true" id="195ee814-b52a-40e8-bc19-0666d9a41d65" name="Default Changelist" comment="Optimized sc1 v2">
+      <change beforePath="$PROJECT_DIR$/.idea/TIL-2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TIL-2021.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SC1 V2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SC1 V2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SC1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SC1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SC1v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/SC1v2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Audio Processing.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Computer Vision.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SC1 V2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SC1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SC1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SC1_ensemble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SC1v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best results/91.38/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/best results/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/look_inside_your_hertz.wav" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/s1_release.zip" beforeDir="false" afterPath="$PROJECT_DIR$/s1_release.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../keyword-transformer" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -66,7 +74,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a50a9503-ebbf-446a-b12b-0daa4725e886" name="Default Changelist" comment="" />
+      <changelist id="195ee814-b52a-40e8-bc19-0666d9a41d65" name="Default Changelist" comment="Optimized sc1 v2" />
       <created>1622106698409</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -81,7 +89,8 @@
       <workItem from="1623396310087" duration="8757000" />
       <workItem from="1623408864306" duration="13401000" />
       <workItem from="1623465101362" duration="16518000" />
-      <workItem from="1623500283953" duration="123000" />
+      <workItem from="1623500283953" duration="3746000" />
+      <workItem from="1623512383917" duration="495000" />
     </task>
     <task id="LOCAL-00001" summary="Add auto file download if it dont exist">
       <created>1622128949759</created>
@@ -146,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623500377793</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Optimized sc1 v2">
+      <created>1623500549729</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623500549729</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
