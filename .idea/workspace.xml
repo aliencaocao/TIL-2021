@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="195ee814-b52a-40e8-bc19-0666d9a41d65" name="Default Changelist" comment="Tuned model, added grader">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_13_15_48__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_13_15_53__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/answers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/challenge_2_team_Tensor is not flowing.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/grader.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/train.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1 V2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1 V2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1v2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/94.3/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/distill.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/distill.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/challenge_2_team_Tensor is not flowing.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/grader.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/grader.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/kws_streaming/train/base_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/kws_streaming/train/base_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/transformer predict.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/transformer predict.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/train.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s1_release.zip" beforeDir="false" afterPath="$PROJECT_DIR$/s1_release.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +87,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="195ee814-b52a-40e8-bc19-0666d9a41d65" name="Default Changelist" comment="Optimized sc1 v2" />
+      <changelist id="" name="Tuned model, added grader" comment="" />
       <created>1622106698409</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -114,7 +107,7 @@
       <workItem from="1623553412944" duration="4827000" />
       <workItem from="1623566019993" duration="5896000" />
       <workItem from="1623576581437" duration="6921000" />
-      <workItem from="1623588334732" duration="4230000" />
+      <workItem from="1623588334732" duration="9549000" />
     </task>
     <task id="LOCAL-00001" summary="Add auto file download if it dont exist">
       <created>1622128949759</created>
@@ -200,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623593800494</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Tuned model, added grader">
+      <created>1623593874359</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1623593874359</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
