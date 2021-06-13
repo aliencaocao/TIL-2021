@@ -1,14 +1,14 @@
 #!/bin/bash
 
 KWS_PATH=$PWD
-DATA_PATH=$KWS_PATH/data
+DATA_PATH=$KWS_PATH/data2
 MODELS_PATH=$KWS_PATH/models_data_v2_12_labels
 CMD_TRAIN="python -m kws_streaming.train.model_train_eval"
 
 $CMD_TRAIN \
 --data_url '' \
 --data_dir $DATA_PATH/ \
---train_dir $MODELS_PATH/kwt3_distill/ \
+--train_dir $MODELS_PATH/my_distill/ \
 --mel_upper_edge_hertz 7600 \
 --optimizer 'adamw' \
 --lr_schedule 'cosine' \

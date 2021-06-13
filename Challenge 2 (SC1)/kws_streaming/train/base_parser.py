@@ -99,14 +99,14 @@ def base_parser():
   parser.add_argument(
       '--silence_percentage',
       type=float,
-      default=10.0,
+      default=0.0,
       help="""\
       How much of the training data should be silence.
       """)
   parser.add_argument(
       '--unknown_percentage',
       type=float,
-      default=10.0,
+      default=0.0,
       help="""\
       How much of the training data should be unknown words.
       """)
@@ -161,7 +161,7 @@ def base_parser():
   parser.add_argument(
       '--wanted_words',
       type=str,
-      default='bird,eight,falcon,five,four,nine,one,seven,six,snake,three,two,zero',
+      default='bird,eight,falcon,five,four,nine,one,seven,six,snake,three,two,zero',  # change here
       help='Words to use (others will be added to an unknown label)',
   )
   parser.add_argument(
