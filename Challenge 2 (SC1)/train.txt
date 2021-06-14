@@ -1,14 +1,19 @@
 KWT3:
-python -m kws_streaming.train.model_train_eval --data_dir data2/ --train_dir models_data_v2_12_labels/my_model/ --mel_upper_edge_hertz 7600 --optimizer adamw --lr_schedule cosine --how_many_training_steps 20096 --eval_step_interval 64 --warmup_epochs 10 --l2_weight_decay 0.1 --learning_rate 0.0005 --batch_size 128 --label_smoothing 0.1 --window_size_ms 30.0 --window_stride_ms 10.0 --mel_num_bins 80 --dct_num_features 40 --resample 0.15 --alsologtostderr --train 1 --use_spec_augment 1 --time_masks_number 2 --time_mask_max_size 25 --frequency_masks_number 2 --frequency_mask_max_size 7 --pick_deterministically 1 kws_transformer --num_layers 12 --heads 3 --d_model 192 --mlp_dim 768 --dropout1 0.2 --attention_type time
+python -m kws_streaming.train.model_train_eval --data_dir data3/ --train_dir models_data_v2_12_labels/my_model/ --mel_upper_edge_hertz 8000 --optimizer adamw --lr_schedule cosine --how_many_training_steps 20096 --eval_step_interval 64 --warmup_epochs 10 --l2_weight_decay 0.1 --learning_rate 0.0005 --batch_size 128 --label_smoothing 0.1 --window_size_ms 30.0 --window_stride_ms 10.0 --mel_num_bins 80 --dct_num_features 40 --resample 0.15 --alsologtostderr --train 1 --use_spec_augment 1 --time_masks_number 2 --time_mask_max_size 25 --frequency_masks_number 2 --frequency_mask_max_size 7 --pick_deterministically 1 --split_data 0 kws_transformer --num_layers 12 --heads 3 --d_model 192 --mlp_dim 768 --dropout1 0.2 --attention_type time
 
 KWT2:
-python -m kws_streaming.train.model_train_eval --data_dir data2/ --train_dir models_data_v2_12_labels/my_model/ --mel_upper_edge_hertz 7600 --optimizer adamw --lr_schedule cosine --how_many_training_steps 20096 --eval_step_interval 64 --warmup_epochs 10 --l2_weight_decay 0.1 --learning_rate 0.0005 --batch_size 128 --label_smoothing 0.1 --window_size_ms 30.0 --window_stride_ms 10.0 --mel_num_bins 80 --dct_num_features 40 --resample 0.15 --alsologtostderr --train 1 --use_spec_augment 1 --time_masks_number 2 --time_mask_max_size 25 --frequency_masks_number 2 --frequency_mask_max_size 7 --pick_deterministically 1 kws_transformer --num_layers 12 --heads 2 --d_model 128 --mlp_dim 512 --dropout1 0.2 --attention_type time
+python -m kws_streaming.train.model_train_eval --data_dir data3/ --train_dir models_data_v2_12_labels/my_model/ --mel_upper_edge_hertz 8000 --optimizer adamw --lr_schedule cosine --how_many_training_steps 20096 --eval_step_interval 64 --warmup_epochs 10 --l2_weight_decay 0.1 --learning_rate 0.0005 --batch_size 128 --label_smoothing 0.1 --window_size_ms 30.0 --window_stride_ms 10.0 --mel_num_bins 80 --dct_num_features 40 --resample 0.15 --alsologtostderr --train 1 --use_spec_augment 1 --time_masks_number 2 --time_mask_max_size 25 --frequency_masks_number 2 --frequency_mask_max_size 7 --pick_deterministically 1 --split_data 0 kws_transformer --num_layers 12 --heads 2 --d_model 128 --mlp_dim 512 --dropout1 0.2 --attention_type time
+
+CRNN:
+python -m kws_streaming.train.model_train_eval --data_dir data3/ --train_dir models_data_v2_12_labels/my_model/ --mel_upper_edge_hertz 8000 --optimizer adamw --lr_schedule cosine --how_many_training_steps 5000 --eval_step_interval 50 --warmup_epochs 10 --l2_weight_decay 0.1 --learning_rate 0.0005 --batch_size 128 --label_smoothing 0.1 --window_size_ms 30.0 --window_stride_ms 10.0 --mel_num_bins 80 --dct_num_features 40 --resample 0.15 --alsologtostderr --train 1 --use_spec_augment 1 --time_masks_number 2 --time_mask_max_size 25 --frequency_masks_number 2 --frequency_mask_max_size 7 --pick_deterministically 1 --split_data 0 crnn
 
 to try:
-sc1 v1 with batchsize=16, just now run is 8
 transformer attention type freq and both
 background volume 0
 mel num bins from 80 to 128
 KWT2 on both large and small data
 
-currently trying: attention on time, added speech dataset data
+currently trying: 
+
+Tried:
+attention on time, added speech dataset data : 95.4

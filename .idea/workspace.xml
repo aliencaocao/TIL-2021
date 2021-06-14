@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="195ee814-b52a-40e8-bc19-0666d9a41d65" name="Default Changelist" comment="Tuned model">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_13_15_48__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_13_15_53__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="195ee814-b52a-40e8-bc19-0666d9a41d65" name="Default Changelist" comment="densenet 95.22">
+      <change afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1 V2 NEW.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1 V2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1 V2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/answers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/answers.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/94.45/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/965625nonorm.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/97nonorm.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1 V2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1v2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/answers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/yiqin 94.45 my 96.456/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/yiqin 95.22 my 95.22/95223.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/yiqin 95.4 my 96.148/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/grader.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/grader.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/look_inside_your_hertz.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/train.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/transformer predict.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/transformer predict.ipynb" afterDir="false" />
+    </list>
+    <list id="f63ef0c3-1ebf-4759-952d-817c21dea701" name="densenet 95.22" comment="densenet 95.22">
       <change beforePath="$PROJECT_DIR$/s1_release.zip" beforeDir="false" afterPath="$PROJECT_DIR$/s1_release.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +66,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../keyword-transformer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Challenge 2 (SC1)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alien\Documents\PyCharm-Projects\TIL-2021\Challenge 2 (SC1)" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="train" type="PythonConfigurationType" factoryName="Python">
@@ -90,6 +102,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="195ee814-b52a-40e8-bc19-0666d9a41d65" name="Default Changelist" comment="Optimized sc1 v2" />
+      <changelist id="f63ef0c3-1ebf-4759-952d-817c21dea701" name="densenet 95.22" comment="" />
       <created>1622106698409</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -110,7 +123,9 @@
       <workItem from="1623566019993" duration="5896000" />
       <workItem from="1623576581437" duration="6921000" />
       <workItem from="1623588334732" duration="9583000" />
-      <workItem from="1623635802897" duration="6079000" />
+      <workItem from="1623635802897" duration="11232000" />
+      <workItem from="1623649795184" duration="4509000" />
+      <workItem from="1623663403819" duration="970000" />
     </task>
     <task id="LOCAL-00001" summary="Add auto file download if it dont exist">
       <created>1622128949759</created>
@@ -210,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623600371607</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="densenet 95.22">
+      <created>1623642296974</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1623642296974</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +262,8 @@
     <MESSAGE value="Added Keyword Transformer arch and predictions, reorganised folder structures." />
     <MESSAGE value="Tuned model, added grader" />
     <MESSAGE value="Tuned model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tuned model" />
+    <MESSAGE value="densenet 95.22" />
+    <option name="LAST_COMMIT_MESSAGE" value="densenet 95.22" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TIL_2021$train.coverage" NAME="train Coverage Results" MODIFIED="1623402369079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
