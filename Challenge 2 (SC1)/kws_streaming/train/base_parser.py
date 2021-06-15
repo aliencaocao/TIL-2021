@@ -75,7 +75,7 @@ def base_parser():
   parser.add_argument(
       '--background_frequency',
       type=float,
-      default=0.8,
+      default=0.8,  # default 0.8
       help="""\
       How many of the training samples have background noise mixed in.
       """)
