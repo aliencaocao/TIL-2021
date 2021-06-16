@@ -1,0 +1,14 @@
+@article{speechcommandsv2,
+   author = { {Warden}, P.},
+    title = "{Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition}",
+  journal = {ArXiv e-prints},
+  archivePrefix = "arXiv",
+  eprint = {1804.03209},
+  primaryClass = "cs.CL",
+  keywords = {Computer Science - Computation and Language, Computer Science - Human-Computer Interaction},
+    year = 2018,
+    month = apr,
+    url = {https://arxiv.org/abs/1804.03209},
+}
+
+Fundamentals of Speech Recognition Course (Winter 2010) https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/speech%20recognition%20course.html

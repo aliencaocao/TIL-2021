@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="195ee814-b52a-40e8-bc19-0666d9a41d65" name="Default Changelist" comment="densenet 95.22">
-      <change afterPath="$PROJECT_DIR$/Challenge 1 (CV1)/Tensor_not_flowing_TIL21_CV_baseline.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge 1 (CV1)/best submission/challenge_1_team_Tensor is not flowing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Challenge 1 (CV1)/submission log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+    <list default="true" id="195ee814-b52a-40e8-bc19-0666d9a41d65" name="Default Changelist" comment="ResNet 152 for cv, update audio model and preds">
+      <change afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/perceiver.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1 V2 NEW.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1 V2 NEW.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/SC1v2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/my 95.22/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/my 95.68/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/yiqin 95.4 my 96.456 offical 94.91/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/distill.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/distill.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/kws_streaming/colab/00_check_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/kws_streaming/colab/00_check_data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/kws 97.84 submitted/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/kws my 97.54 submitted/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/submit log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/submit log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/yiqin 94.45 my 96.148/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/best results/yiqin 95.22 my 95.22/challenge_2_team_Tensor is not flowing.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/kws_streaming/train/base_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/kws_streaming/train/base_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/softmax_outputs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/softmax_outputs2.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/train.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Challenge 2 (SC1)/transformer predict.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge 2 (SC1)/transformer predict.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample_submission_sc.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sample_submission_sc.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/speech_submission_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/speech_submission_checker.py" afterDir="false" />
-    </list>
-    <list id="f63ef0c3-1ebf-4759-952d-817c21dea701" name="IGNORE" comment="densenet 95.22">
-      <change beforePath="$PROJECT_DIR$/s1_release.zip" beforeDir="false" afterPath="$PROJECT_DIR$/s1_release.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s1_release_ori.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s1_test_release.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +106,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="195ee814-b52a-40e8-bc19-0666d9a41d65" name="Default Changelist" comment="Optimized sc1 v2" />
-      <changelist id="f63ef0c3-1ebf-4759-952d-817c21dea701" name="densenet 95.22" comment="" />
       <created>1622106698409</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -139,7 +133,13 @@
       <workItem from="1623671575361" duration="4945000" />
       <workItem from="1623723616441" duration="8974000" />
       <workItem from="1623740842301" duration="292000" />
-      <workItem from="1623742562445" duration="4532000" />
+      <workItem from="1623742562445" duration="4837000" />
+      <workItem from="1623754290761" duration="10695000" />
+      <workItem from="1623770100653" duration="240000" />
+      <workItem from="1623808363507" duration="1381000" />
+      <workItem from="1623809830885" duration="8540000" />
+      <workItem from="1623821527866" duration="7692000" />
+      <workItem from="1623854279841" duration="1089000" />
     </task>
     <task id="LOCAL-00001" summary="Add auto file download if it dont exist">
       <created>1622128949759</created>
@@ -253,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623740902148</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ResNet 152 for cv, update audio model and preds">
+      <created>1623747289375</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1623747289375</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +292,8 @@
     <MESSAGE value="Tuned model" />
     <MESSAGE value="densenet 95.22" />
     <MESSAGE value="ResNet152 backbone for cv, improved audio" />
-    <option name="LAST_COMMIT_MESSAGE" value="ResNet152 backbone for cv, improved audio" />
+    <MESSAGE value="ResNet 152 for cv, update audio model and preds" />
+    <option name="LAST_COMMIT_MESSAGE" value="ResNet 152 for cv, update audio model and preds" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TIL_2021$train.coverage" NAME="train Coverage Results" MODIFIED="1623402369079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

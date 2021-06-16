@@ -1,19 +1,30 @@
 KWT3:
 cd C:\Users\alien\Documents\PyCharm-Projects\TIL-2021\Challenge 2 (SC1)
-python -m kws_streaming.train.model_train_eval --data_dir data3/ --train_dir models_data_v2_12_labels/my_model/ --mel_upper_edge_hertz 7600 --optimizer adamw --lr_schedule cosine --how_many_training_steps 20096 --eval_step_interval 64 --warmup_epochs 10 --l2_weight_decay 0.1 --learning_rate 0.0005 --batch_size 128 --label_smoothing 0.1 --window_size_ms 30.0 --window_stride_ms 10.0 --mel_num_bins 80 --dct_num_features 40 --resample 0.15 --alsologtostderr --train 1 --use_spec_augment 1 --time_masks_number 2 --time_mask_max_size 25 --frequency_masks_number 2 --frequency_mask_max_size 7 --pick_deterministically 1 --split_data 0 kws_transformer --num_layers 12 --heads 3 --d_model 192 --mlp_dim 768 --dropout1 0. --attention_type time
+python -m kws_streaming.train.model_train_eval --data_dir data3/ --train_dir models_data_v2_12_labels/my_model/ --mel_upper_edge_hertz 7600 --optimizer adamw --lr_schedule cosine --how_many_training_steps 24000 --eval_step_interval 50 --warmup_epochs 10 --l2_weight_decay 0.1 --learning_rate 0.0005 --batch_size 130 --label_smoothing 0.1 --window_size_ms 30.0 --window_stride_ms 10.0 --mel_num_bins 80 --dct_num_features 40 --resample 0.15 --alsologtostderr --train 1 --use_spec_augment 1 --time_masks_number 2 --time_mask_max_size 25 --frequency_masks_number 2 --frequency_mask_max_size 7 --pick_deterministically 1 --split_data 0 kws_transformer --num_layers 12 --heads 3 --d_model 192 --mlp_dim 768 --dropout1 0. --attention_type time
 
 KWT2:
 cd C:\Users\alien\Documents\PyCharm-Projects\TIL-2021\Challenge 2 (SC1)
-python -m kws_streaming.train.model_train_eval --data_dir data3/ --train_dir models_data_v2_12_labels/my_model/ --mel_upper_edge_hertz 7600 --optimizer adamw --lr_schedule cosine --how_many_training_steps 20096 --eval_step_interval 64 --warmup_epochs 10 --l2_weight_decay 0.1 --learning_rate 0.0005 --batch_size 128 --label_smoothing 0.1 --window_size_ms 30.0 --window_stride_ms 10.0 --mel_num_bins 80 --dct_num_features 40 --resample 0.15 --alsologtostderr --train 1 --use_spec_augment 1 --time_masks_number 2 --time_mask_max_size 25 --frequency_masks_number 2 --frequency_mask_max_size 7 --pick_deterministically 1 --split_data 0 kws_transformer --num_layers 12 --heads 2 --d_model 128 --mlp_dim 512 --dropout1 0.2 --attention_type time
+python -m kws_streaming.train.model_train_eval --data_dir data3/ --train_dir models_data_v2_12_labels/my_model/ --mel_upper_edge_hertz 7600 --optimizer adamw --lr_schedule cosine --how_many_training_steps 24000 --eval_step_interval 50 --warmup_epochs 10 --l2_weight_decay 0.1 --learning_rate 0.0005 --batch_size 128 --label_smoothing 0.1 --window_size_ms 30.0 --window_stride_ms 10.0 --mel_num_bins 80 --dct_num_features 40 --resample 0.15 --alsologtostderr --train 1 --use_spec_augment 1 --time_masks_number 2 --time_mask_max_size 25 --frequency_masks_number 2 --frequency_mask_max_size 7 --pick_deterministically 1 --split_data 0 kws_transformer --num_layers 12 --heads 2 --d_model 128 --mlp_dim 512 --dropout1 0. --attention_type time
 
 to try:
 background volume 0
 
-currently trying:
+normalised extra speech dataset, mel upper hertz remain 7600, time attention, dropout 0 on new answer, bg noise 0.1
+adam optimizer with lr 3e-4
+
+
+currently trying: 
 
 
 Tried:
 attention on time, added speech dataset data : 94.91 offical
 attention on both, normalised extra speech dataset, mel upper hertz from 7600 to 8000 : my 96.76
-normalised extra speech dataset, mel upper hertz remain 7600, time attention, dropout 0 :97.84
-background volume from 0.1 to 0.2, noise freq from 0.8 to 0.5: my 97.54
+normalised extra speech dataset, mel upper hertz remain 7600, time attention, dropout 0 :97.84 offical 97.227
+background volume from 0.1 to 0.2, noise freq from 0.8 to 0.5: my 97.54 offical 97.227
+
+ANSWER CHANGED BELOW!!
+window size from 30 to 50: 96.67 : offical lower than 97.535
+ensemble in foler got 97.535
+
+remained useless files and 2 extra 'two' in test set below
+background volume from 0.1 to 0.2, using extra normalised speech dataset v2: my 98.456 submitted

@@ -61,7 +61,7 @@ def base_parser():
   parser.add_argument(
       '--background_volume',
       type=float,
-      default=0.1,  # default 0.1
+      default=0.2,  # default 0.1d
       help="""\
       How loud the background noise should be, between 0 and 1.
       """)
